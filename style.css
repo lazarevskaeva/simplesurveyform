@@ -1,0 +1,56 @@
+* {
+    background: teal;
+    color: #000328;
+    font-family: Verdana;
+  }
+  
+  label {
+    background: transparent; 
+    color: #000328;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    background-color: white; 
+    color: gray; 
+    border: 1px solid #00063F; /* Add solid border */
+    padding: 5px; 
+    font-family: Verdana;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  textarea:focus {
+    outline: none; 
+    border-color: #0099F7; 
+  }
+  
+  p {
+    color: white;
+    font-size: 12px;
+  }
+  
+  button {
+    background-color: #00063F; /* Initial button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded edges */
+    margin-top: 20px; /* Space above the button */
+  }
+  
+  button:hover {
+    background-color: gray; /* Gray color on hover */
+  }
+  
+  /* Ensure the button is positioned at the bottom */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
